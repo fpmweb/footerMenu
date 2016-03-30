@@ -1,0 +1,60 @@
+// Color variables (appears count calculates by raw css)
+@color0: #ffffff; // Appears 2 times
+
+
+
+body {
+	font: 13px Helvetica, arial, freesans, clean, sans-serif;
+	height: 900px;
+}
+h1 {
+	-webkit-font-smoothing: antialiased;
+	color: #191919;
+	font-size: 40px;
+	font-weight: bold;
+}
+h2 {
+	color: #888888;
+	font-size: 20px;
+	font-weight: normal;
+}
+#footerMenu {
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	background: #7CA1CA;
+	bottom: 0;
+	color: @color0;
+	height: 0px;
+	left: 0;
+	overflow: none;
+	position: fixed;
+	transition: all 0.4s ease-in-out;
+	width: 100%;
+	z-index: 300;
+	ul.navigation {
+		li {
+			display: block;
+			float: left;
+			margin-right: 16px;
+			a {
+				background-color: #172E48;
+				border-radius: 3px;
+				color: @color0;
+				padding: .2em 1em;
+				text-decoration: none;
+				&:hover {
+					background-color: #99AABD;
+					color: white;
+				}
+			}
+		}
+	}
+}
+#footerMenu.show {
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	height: 65px;
+	transition: all 0.4s ease-in-out;
+}
