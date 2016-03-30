@@ -47,6 +47,14 @@ h2 {
 }
 
 #footerMenu ul.navigation li a:hover {
-    background-color: #555;
-    color: white;
+  background-color: #99AABD;
+  color: white;
+}
+
+#footerMenu ul.navigation li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  color: #fff;
+  background-color: #172E48;
+  border-radius: 3px;
 }
