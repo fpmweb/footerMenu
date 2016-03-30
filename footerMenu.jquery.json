@@ -1,16 +1,16 @@
 {
-name: "footerMenu",
-version: "1.0",
-title: "jQuery footerMenu",
-description: "Simple and easy jQuery plugin. Nice slide up toggle footer menu when scroll down.",
-author: {
-name: "Francesc Puig",
-url: "https://github.com/fpmweb"
-},
-dependencies: {
-jquery: ">=1.2"
-},
-bugs: "https://github.com/fpmweb/footerMenu/issues",
-homepage: "https://github.com/fpmweb/footerMenu",
-docs: "https://github.com/fpmweb/footerMenu#readme"
+	"name" : "footerMenu",
+	"version" : "1.0",
+	"title" : "jQuery footerMenu",
+	"description" : "Simple and easy jQuery plugin. Nice slide up toggle footer menu when scroll down.",
+	"author" : {
+		"name" : "Francesc Puig",
+		"url" : "https://github.com/fpmweb"
+	},
+	"dependencies" : {
+		"jquery" : ">=1.2"
+	},
+	"bugs" : "https://github.com/fpmweb/footerMenu/issues",
+	"homepage" : "https://github.com/fpmweb/footerMenu",
+	"docs" : "https://github.com/fpmweb/footerMenu#readme"
 }
