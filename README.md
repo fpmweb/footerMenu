@@ -1,5 +1,3 @@
-[![Bower version](https://badge.fury.io/bo/badges.svg)](http://badge.fury.io/bo/badges)
-
 What is footerMenu:
 =========
 Simple and easy jQuery plugin. Nice slide up toggle footer menu when scroll down.
