@@ -1,6 +1,6 @@
 body {
   font: 13px Helvetica, arial, freesans, clean, sans-serif;
-  height: 900px;
+  height: 1500px;
 }
 
 h1 {
@@ -14,6 +14,20 @@ h2 {
     font-weight: normal;
     font-size: 20px;
     color: #888;
+}
+
+.arrow-down {
+  margin-top: 150px;
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #7CA1CA;
+}
+
+#container {
+  width: 100%;
+  text-align: center;
 }
 
 #footerMenu {
@@ -30,6 +44,9 @@ h2 {
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
+  -webkit-box-shadow: 0px -4px 38px rgba(50, 50, 50, 0.50);
+  -moz-box-shadow:    0px -4px 38px rgba(50, 50, 50, 0.50);
+  box-shadow:         0px -4px 38px rgba(50, 50, 50, 0.50);
 }
 
 #footerMenu.show {
@@ -41,6 +58,7 @@ h2 {
 }
 
 #footerMenu ul.navigation li {
+  margin-top: 10px;
   float: left;
   margin-right: 16px;
   display: block;
