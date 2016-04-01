@@ -5,7 +5,7 @@ Simple and easy jQuery plugin. Nice slide up toggle footer menu when scroll down
 Demo:
 =========
 
-(under construction)
+http://htmlpreview.github.io/?https://raw.githubusercontent.com/fpmweb/footerMenu/master/footerMenu.html
 
 
 Bower installation:
